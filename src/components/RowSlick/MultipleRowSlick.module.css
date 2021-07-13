@@ -1,0 +1,35 @@
+.slick-prev:before, .slick-next:before {
+
+    color: gray !important;
+    font-size: 3rem !important;
+}
+
+
+.width-item {
+    width: 20%  !important;
+}
+
+.active_Film {
+    @apply text-red-500;
+    font-size: 30px;
+}
+
+
+.none_active_Film {
+    @apply text-gray-900;
+    transition: all 0.5s;
+    font-size: 22px;
+}
+.none_active_Film:hover{
+    font-size: 30px;
+}
+
+
+/* 
+.film_dangChieu{
+
+}
+
+.film_sapChieu{
+
+} */

@@ -1,0 +1,47 @@
+.seat{
+    width: 40px;
+    height: 40px;
+    border: 3px solid rgb(255, 72, 0);
+    border-radius: 10%;
+    background: tomato;
+    color: white;
+    -webkit-box-shadow: 5px 5px 10px -3px #000000; 
+box-shadow: 5px 3px 10px -5px #000000;
+transition: all 0.5s;
+text-align: center;
+}
+.checkOut{
+   
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.seat__type--vip{
+    border: 3px solid #008C8A;
+    background: #02AFAE;
+    transition: all 0.5s;
+}
+.seat__type--vip:hover{
+    background: #5188CA ;
+}
+
+.seat__checked{
+    border: 3px solid #FF7C00;
+    background: #FFA566;
+    cursor: no-drop;
+    transition: none;
+}
+.seat__checked:hover{
+    background: #FFA566;
+}
+.seat__checking{
+    border: 3px solid #3B9B1B;
+    background: #A1D97D;
+}
+.my__seat{
+    border: 3px solid #C690B1;
+    background: #C272A5;
+}
+
+.my__seat:hover{
+    background: #C272A5;
+}

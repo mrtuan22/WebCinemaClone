@@ -1,0 +1,3 @@
+export const USER_LOGIN = "USER_LOGIN";
+
+export const POST_USER_INFOMATION = "POST_USER_INFOMATION";
